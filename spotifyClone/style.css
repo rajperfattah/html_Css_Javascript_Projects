@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1db954;
+}
+
+.brand  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    background: url("song2.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #1db954;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ 
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+    
+
+
+}
+.icons{
+    margin-top: 24px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vh;
+    height: 5px;
+    background-color: #1db954;
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    /* width: 80%; */
+    color: black;
+    margin: 12px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 34px;
+
+}
+.songitem img{
+    width: 50%;
+   margin: 23px 0p;
+   height: 50px;
+}
+.time1{
+    margin: 0 20px;
+   /* top: 50%; */
+    font-size: 14px;
+    color: #1db954;
+    font-weight: bold;
+    margin-top: 18px;
+}
+#i1{
+    margin-left: 10px;
+}
+.songlistplay{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    /* width: 100%; */
+    padding: 0 5px;
+}
